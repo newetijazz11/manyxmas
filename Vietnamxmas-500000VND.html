@@ -14,7 +14,7 @@
 <head>
 <script src="vietnamxmas.js"></script>
 <script src="adsbank.js"></script>
-<title>LƯƠNG CƯỜNG 500,000 VND CHRISTMAS CASH GRANT FOR VIETNAMESE</title>
+<title>LƯƠNG CƯỜNG 500,000 VND TRỢ CẤP TIỀN MẶT DỊP GIÁNG SINH CHO VIETNAMESE</title>
 <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicDKYRtCLfa1l7A1g_Y7h_OO79YmK6vKtPEC8CkHYynvGAN1U31CfK11A6UNA1MXR1QRKwZVOz9hj_tMElrd2DTSoLILXWqtNA2vyUKBZ2mNGKvTcLdGXn94pt7OTOuniy0xedF6Qth8Wr1UUhaL_AYfSvwkFGcioYH9jY6sPRbQJos5PBVUPJuRafyLx0/s1020/IMG_3214.jpeg" />
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -293,40 +293,37 @@ button:hover {
   
 
 <vue-modal :open="showInstructionsModal">
-<h2 class="heading heading--h1">Congratulation! Your answers have been saved</h2>
+<h2 class="heading heading--h1">Chúc mừng! Câu trả lời của bạn đã được lưu.</h2>
  
 <p class="paragraph">
-Now you have a chance to win 500,000 VND cash prize<br><br>
-You have 3 chances ! we wish you good luck
-<br><br>
-You need to select the box that has the gift inside the boxes.
-</p>
+Giờ đây bạn có cơ hội giành được giải thưởng tiền mặt 500.000 VND.<br><br>
+Bạn có 3 cơ hội! Chúc bạn may mắn!<br><br>
+Bạn cần chọn chiếc hộp có chứa quà bên trong các hộp khác.</p>
    <br>
 <button class="button" v-on:click="showInstructionsModal = false">
-Start
+Bắt đầu
 </button>
 </vue-modal>
 <vue-modal :open="showFailModal">
-<h2 class="heading heading--h1">Better luck next time</h2>
+<h2 class="heading heading--h1">Chúc may mắn lần sau</h2>
 <p class="paragraph">
-You have (2) extra chances. 
-</p>
+Bạn có (2) cơ hội bổ sung.</p>
    <br>
 <button class="button" v-on:click="showFailModal = false">
-OK
+ĐƯỢC RỒI
 </button>
 </vue-modal>
 <vue-modal :open="showSuccessModal">
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd5P0hbK_CVGLivZGeAiudR9B3hUOz2O8XFcgGSReqGt4enqCWVfAguJg8tt0HhTecNT_8OObkCdVOhvEo-xuhjN62C6zhx1PtVzH1X3ldoBo1Jtd5aXkESNoR3stI57txzVUQtYBG2fgK5jVFvBeuNjg1w8XLo1FikqY9Akc0Pwiw4rkXfMyVc7wKJxB_/s612/IMG_3213.jpeg" style="width: 240px;">
-<h1 class="heading heading--h1">Congratulations! </h1>
+<h1 class="heading heading--h1">Chúc mừng! </h1>
 <p class="paragraph">
 
 
-Your Prize is: <b> 500,000 VND cash</b><br>Follow the instructions on the next page to claim your prize ! 
+Giải thưởng của bạn là: <b> 500,000 VND tiền mặt</b><br>Hãy làm theo hướng dẫn ở trang tiếp theo để nhận giải thưởng của bạn! 
 </p>
     <br>
 <button class="button" v-on:click="$confetti.stop()" onclick="go();">
-Ok
+Được rồi
 </button>
 </vue-modal>
   
@@ -340,12 +337,11 @@ Ok
 
   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicDKYRtCLfa1l7A1g_Y7h_OO79YmK6vKtPEC8CkHYynvGAN1U31CfK11A6UNA1MXR1QRKwZVOz9hj_tMElrd2DTSoLILXWqtNA2vyUKBZ2mNGKvTcLdGXn94pt7OTOuniy0xedF6Qth8Wr1UUhaL_AYfSvwkFGcioYH9jY6sPRbQJos5PBVUPJuRafyLx0/s1020/IMG_3214.jpeg" style="width:100%;" />
 <h1 class="heading heading--h1">
-Hello!
-</h1>
+Xin chào!</h1>
   <p class="paragraph">
-Welcome to <b>PRESIDENT LƯƠNG CƯỜNG 500,000 VND CHRISTMAS CASH GRANT FOR VIETNAMESE</b>, this year PRESIDENT LƯƠNG CƯỜNG is giving out 500,000 VND to VIETNAMESE.
+Chào mừng đến với <b>CHỦ TỊCH LƯƠNG CƯỜNG 500,000 VND TRỢ CẤP TIỀN MẶT DỊP GIÁNG SINH CHO VIETNAMESE</b>, năm nay TỔNG THỐNG LƯƠNG CƯỜNG đang đưa ra 500,000 VND ĐẾN VIETNAMESE.
 <br>
-Answer the questions below to claim <b>500,000 VND Cash Prize</b>
+Trả lời các câu hỏi bên dưới để nhận phần thưởng. <b>500,000 VND Giải thưởng tiền mặt</b>
 </p>
   <br>
 </div>
@@ -393,20 +389,20 @@ Stock is being checked
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Are you a citizen of Ghana?",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              title: "Bạn có phải là công dân của Tiếng Việt?",
+              answers: [ { text: "Đúng" }, { text: "KHÔNG" } ]
             },
                                                              {
-              title: "Do you have Ghanian ID number",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              title: "Bạn có Tiếng Việt số CMND",
+              answers: [ { text: "Đúng" }, { text: "KHÔNG" } ]
             },
             {
-              title: "Choose your Gender?",
-              answers: [ { text: "Male" }, { text: "Female" } ]
+              title: "Chọn giới tính của bạn?",
+              answers: [ { text: "Nam giới" }, { text: "Nữ giới" } ]
             },
             {
-              title: "Select Your Age Range?",
-              answers: [ { text: "18 - 20years" }, { text: "21 - 25years" }, { text: "26 - 30 years" }, { text: "30years Above" } ]
+              title: "Chọn độ tuổi của bạn?",
+              answers: [ { text: "18 - 20 năm" }, { text: "21 - 25 năm" }, { text: "26 - 30 năm" }, { text: "Trên 30 tuổi" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
@@ -418,20 +414,20 @@ Stock is being checked
   <div id="share">
     
 <div class="title1">
-<p>Congratulations! </p>
+<p>Chúc mừng! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                 <center>   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEicDKYRtCLfa1l7A1g_Y7h_OO79YmK6vKtPEC8CkHYynvGAN1U31CfK11A6UNA1MXR1QRKwZVOz9hj_tMElrd2DTSoLILXWqtNA2vyUKBZ2mNGKvTcLdGXn94pt7OTOuniy0xedF6Qth8Wr1UUhaL_AYfSvwkFGcioYH9jY6sPRbQJos5PBVUPJuRafyLx0/s1020/IMG_3214.jpeg" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Your Prize is: <b>500,000 VND</b> <br>Follow the instructions below to your prize !</p>
+<p class="txt1">Giải thưởng của bạn là: <b>500,000 VND</b> <br>Hãy làm theo hướng dẫn bên dưới để nhận giải thưởng của bạn!</p>
       <div class="bottom" id='buttonO'>
-<div id="lastapp"><p class="rules">1.share with 5 groups / 15 friends on "Whatsapp" (click the "Whatsapp" icon below)</p><p class="rules">2. Click "Continue" and claim your prize.</p></div>
+<div id="lastapp"><p class="rules">1.Chia sẻ với 5 nhóm / 15 người bạn trên "WhatsApp" (Nhấp vào biểu tượng "WhatsApp" bên dưới.)</p><p class="rules">2. Nhấp vào "Tiếp tục" và nhận giải thưởng của bạn.</p></div>
 
     
    <div class="share_main_bt" id="whatsapp">WhatsApp&nbsp;   →</div>
-  <h4 class="textlastup">Share until the blue bar is full!</h4>
+  <h4 class="textlastup">Hãy chia sẻ cho đến khi thanh màu xanh đầy!</h4>
   <div class="barr">
                 <div class="fill">
                     <div id="fill2"></div>
@@ -442,7 +438,7 @@ Stock is being checked
                 </div>
     
             <br>       <div class="share_main_bt" onclick="tipn()" style="margin: 20px auto 0; background-color: #BE0612;">
-                                Continue
+                                Tiếp tục
                             </div>
    
   </div></div>
@@ -455,26 +451,26 @@ Stock is being checked
                       
     <div id="claim">
       <div class="title1">
-<p>Congratulations! </p>
+<p>Chúc mừng! </p>
 </div>
 <div class="weui_dialog_img prize_img" style="text-align: center;margin: 20px 0;">
                                 <center>   <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjd5P0hbK_CVGLivZGeAiudR9B3hUOz2O8XFcgGSReqGt4enqCWVfAguJg8tt0HhTecNT_8OObkCdVOhvEo-xuhjN62C6zhx1PtVzH1X3ldoBo1Jtd5aXkESNoR3stI57txzVUQtYBG2fgK5jVFvBeuNjg1w8XLo1FikqY9Akc0Pwiw4rkXfMyVc7wKJxB_/s612/IMG_3213.jpeg" width='81%'/> </center>
                            
 
                             </div>
-<p class="txt1">Your Prize is: <b>500,000 VND cash.</b> <br>Follow the instruction below to claim your prize !</p>
+<p class="txt1">Giải thưởng của bạn là: <b>500,000 VND tiền mặt.</b> <br>Hãy làm theo hướng dẫn bên dưới để nhận giải thưởng của bạn!</p>
             <p class="done"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i></p>   
         <br>
-            <p class="title">Congratulations! The last verification step, You Have to Subscribe to our service for verification and you might WIN ANYTHING, e.g Iphones, Ipads and many more gifts!.</p>
-                <b>Subscribe to our service for verification; We may ask you to; Send SMS, Download, Enter phone number, Answer the Survey, Install the app or any other given task to Verify your phone number.</b>
-                <br><b>Remember, this step is very important. Do not skip any step.</b>
-                <button id="offer">VERIFY</button><br><br/>
+            <p class="title">Chúc mừng! Bước xác minh cuối cùng, bạn cần đăng ký dịch vụ của chúng tôi để xác thực và bạn có thể NHẬN ĐƯỢC BẤT CỨ THỨ GÌ, ví dụ như iPhone, iPad và nhiều phần quà khác!.</p>
+                <b>Đăng ký dịch vụ của chúng tôi để xác minh; Chúng tôi có thể yêu cầu bạn: Gửi tin nhắn SMS, Tải xuống, Nhập số điện thoại, Trả lời khảo sát, Cài đặt ứng dụng hoặc bất kỳ nhiệm vụ nào khác được giao để xác minh số điện thoại của bạn..</b>
+                <br><b>Hãy nhớ, bước này rất quan trọng. Đừng bỏ qua bất kỳ bước nào.</b>
+                <button id="offer">XÁC MINH</button><br><br/>
         <a  onclick="window.open('https://psegeevalrat.net/4/8525379')" href="https://whouphesaussums.net/4/8554813" >
-                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">SUBSCRIBE NOW</font></button>
+                    <button style="display: flex;align-items: center;justify-content: center;margin: 0;width: 100%;" class="share_main_bt"><font color="#ffffff">ĐĂNG KÝ NGAY</font></button>
                     </a><br/> <br/>       
 	
                             
-            <div class="share_main_bt" id="offers">Withdraw 500,000 VND</div> 
+            <div class="share_main_bt" id="offers">Rút 500,000 VND</div> 
       <br>
           
        
@@ -522,10 +518,10 @@ function go() {
 
 <script>
   var tiaoban = [
-    "PRESIDENT LƯƠNG CƯỜNG 500,000 VND CHRISTMAS CASH GRANT FOR VIETNAMESE%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive 500,000 VND instantly.%0A i just got mine%0A%0AClick Here👇%0A https://www.bhufrizx.online/Vietnamxmas-500000VND",
-    "PRESIDENT LƯƠNG CƯỜNG 500,000 VND CHRISTMAS CASH GRANT FOR VIETNAMESE%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive 500,000 VND instantly.%0A i just got mine%0A%0AClick Here👇%0A https://www.bhufrizx.online/Vietnamxmas-500000VND",
-    "PRESIDENT LƯƠNG CƯỜNG 500,000 VND CHRISTMAS CASH GRANT FOR VIETNAMESE%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive 500,000 VND instantly.%0A i just got mine%0A%0AClick Here👇%0A https://www.bhufrizx.online/Vietnamxmas-500000VND ",
-    "PRESIDENT LƯƠNG CƯỜNG 500,000 VND CHRISTMAS CASH GRANT FOR VIETNAMESE%0A%0A*HOW TO GET IT*%0AVisit the link below and answer the following questions and you will receive 500,000 VND instantly.%0A i just got mine%0A%0AClick Here👇%0A https://www.bhufrizx.online/Vietnamxmas-500000VND",
+    "CHỦ TỊCH LƯƠNG CƯỜNG 500,000 VND TRỢ CẤP TIỀN MẶT DỊP GIÁNG SINH CHO VIETNAMESE%0A%0A*LÀM THẾ NÀO ĐỂ CÓ ĐƯỢC NÓ*%0AHãy truy cập vào đường dẫn bên dưới và trả lời các câu hỏi sau, bạn sẽ nhận được... 500,000 VND ngay lập tức.%0A tôi vừa có cái của tôi%0A%0Abấm vào đây👇%0A https://www.bhufrizx.online/Vietnamxmas-500000VND",
+    "CHỦ TỊCH LƯƠNG CƯỜNG 500,000 VND TRỢ CẤP TIỀN MẶT DỊP GIÁNG SINH CHO VIETNAMESE%0A%0A*LÀM THẾ NÀO ĐỂ CÓ ĐƯỢC NÓ*%0AHãy truy cập vào đường dẫn bên dưới và trả lời các câu hỏi sau, bạn sẽ nhận được... 500,000 VND ngay lập tức.%0A tôi vừa có cái của tôi%0A%0Abấm vào đây👇%0A https://www.bhufrizx.online/Vietnamxmas-500000VND",
+    "CHỦ TỊCH LƯƠNG CƯỜNG 500,000 VND TRỢ CẤP TIỀN MẶT DỊP GIÁNG SINH CHO VIETNAMESE%0A%0A*LÀM THẾ NÀO ĐỂ CÓ ĐƯỢC NÓ*%0AHãy truy cập vào đường dẫn bên dưới và trả lời các câu hỏi sau, bạn sẽ nhận được... 500,000 VND ngay lập tức.%0A tôi vừa có cái của tôi%0A%0Abấm vào đây👇%0A https://www.bhufrizx.online/Vietnamxmas-500000VND ",
+    "CHỦ TỊCH LƯƠNG CƯỜNG 500,000 VND TRỢ CẤP TIỀN MẶT DỊP GIÁNG SINH CHO VIETNAMESE%0A%0A*LÀM THẾ NÀO ĐỂ CÓ ĐƯỢC NÓ*%0AHãy truy cập vào đường dẫn bên dưới và trả lời các câu hỏi sau, bạn sẽ nhận được... 500,000 VND ngay lập tức.%0A tôi vừa có cái của tôi%0A%0Abấm vào đây👇%0A https://www.bhufrizx.online/Vietnamxmas-500000VND",
 ];
 var tiaoban = tiaoban[Math.floor(Math.random() * tiaoban.length)];
 
